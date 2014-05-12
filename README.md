@@ -1,6 +1,6 @@
 DepMWEx - a tool for extracting multiword-expressions from dependency trees
 
-Tree_v05.py -- contains the Node and Tree classes necessary for defining search trees, transforming parser outputs to trees and searching for search tree results inside those parse trees
+Tree_v05.py -- contains the definitions of Node and Tree classes necessary for defining search trees, transforming parser outputs to trees and searching for search tree results inside those parse trees
 
 grammar_sl_v03.py -- current version of the grammar for Slovene consisting of 75 search trees
 
