@@ -6,4 +6,6 @@ grammar_sl_v03.py -- current version of the grammar for Slovene consisting of 75
 
 grammar_hr_v04.py -- current version of the grammar for Croatian and Serbian consisting of 62 search trees
 
-build_memory.py -- script merging the extracts obtained from grammar_*.py scripts, each MWE candidate satisfying the frequency criterion is scored by log-Dice and frequency
+build_lexicon.py -- script merging the extracts obtained from grammar_*.py scripts, each MWE candidate satisfying the frequency criterion is scored by log-Dice and frequency
+
+encode_lexicon.py -- script that compiles an XML lexicon from the result of the build_lexicon.py script
