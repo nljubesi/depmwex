@@ -18,7 +18,7 @@ distr_right={}
 
 for line in sys.stdin:
   try:
-    w1,rel,w2=line.strip().split('\t')
+    w1,rel,w2,pos=line.strip().split('\t')
   except:
     continue
   try:
